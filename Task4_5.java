@@ -19,11 +19,11 @@ public class Task4_5 {
         System.out.print("Введіть вагу (кг): ");
         double weight = scanner.nextDouble();
 
-        // Розрахунок BMI
+        
         double bmi = weight / (height * height);
         String category = "";
 
-        // Визначення категорії
+        
         if (bmi < 18.5) {
             category = "Недостатня вага";
         } else if (bmi >= 18.5 && bmi < 25) {
