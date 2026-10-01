@@ -12,7 +12,7 @@ public class Task1 {
 
         System.out.print("Введіть вік: ");
         int age = scanner.nextInt();
-        scanner.nextLine(); // Очищення залишку рядка
+        scanner.nextLine();
 
         System.out.print("Введіть групу: ");
         String group = scanner.nextLine();
