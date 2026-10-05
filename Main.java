@@ -54,7 +54,7 @@ public class Main {
         }
 
         System.out.println("\n--- ПОШУК ЗА ЗРАЗКОМ ---");
-        CarRental targetRental = new CarRental("Audi RS 7", 5, 120.0);
+        CarRental targetRental = new CarRental("Volkswagen Golf", 5, 120.0);
         System.out.println("Шукаємо: " + targetRental.toString());
 
         boolean isFound = false;
